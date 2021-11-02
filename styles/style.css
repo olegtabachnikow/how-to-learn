@@ -134,7 +134,6 @@
     font-size: 60px;
     font-weight: bold;
     margin: 0 0 20px 0;
-    line-height: 1.2;
 }
 
 .section-subtitle {
@@ -210,8 +209,6 @@
     position: absolute;
     top: 50%;
     right: 48px;
-    font-size: 36px;
-    font-weight: normal;
     text-decoration: none;
     color: #2f80ed;
 }
