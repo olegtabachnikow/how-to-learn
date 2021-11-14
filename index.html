@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Learning how to learn</title>
 </head>
 
@@ -14,9 +13,9 @@
         <header class="header">
             <img class="logo logo_place_header" src="images/logo_place_header.png" alt="practicum logo">
             <h1 class="header__title">Learning How to Learn</h1>
-            <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. <a class="header__link" href="#">Learn more →</a></p>
+            <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. <a class="header__link link_hover_opacity" href="#">Learn more →</a></p>
             <img class="header__main-illustration" src="images/header-image.png" alt="Epic ponderer stood on a mountaintop deliberating over the finer points of the modern educational system, while also wondering where that giant blue square came from">
-            <div class="header__square"></div>
+            <div class="header__square rotation"></div>
         </header>
         <main class="content">
             <section class="description">
@@ -30,6 +29,62 @@
                         <p class="two-columns__paragraph ">Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</p>
                     </div>
                 </div>
+            </section>
+            <section class="techniques">
+                <h2 class="section-title">Learning Techniques</h2>
+                <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+                <ul class="cards">
+                    <li class="cards__item">
+                        <img class="cards__image" src="images/cards-attention.png" alt="the picture of book '101 essays that will change the way you think'">
+                        <h3 class="cards__title">Two Ways of Thinking</h3>
+                        <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__image" src="images/cards-recall.png" alt="a picture of angel-boy statue">
+                        <h3 class="cards__title">Recall</h3>
+                        <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__image" src="images/cards-interleaving.png" alt="a picture of big greycolored structure">
+                        <h3 class="cards__title">Interleaving</h3>
+                        <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__image" src="images/cards-question.png" alt="a lonely man staying in big gray room">
+                        <h3 class="cards__title">Questions</h3>
+                        <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img class="cards__image" src="images/cards-competence.png" alt="a hand with stack of books laying on it">
+                        <h3 class="cards__title">Illusion of Competence</h3>
+                        <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="video">
+                <h2 class="section-title">TED talks</h2>
+                <p class="section-subtitle">For lovers of procrastination</p>
+                <div class="video__iframes">
+                    <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="oakley">
+                <div class="two-columns">
+                    <h2 class="two-columns__brief">Barbara Oakley's story</h2>
+                    <div class="two-columns__main-text">
+                        <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her
+                            to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she developed her learning methodology as
+                            she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the knowledge that other people may get at first glance gives
+                            you a deeper, more comprehensive understanding of the subject matter.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="feynman">
+                <h2 class="feynman__title">The Feynman Technique</h2>
+                <p class="feynman__subtitle">Learn without forgetting</p>
+                <a class="feynman__link link_hover_opacity" href="# ">More →</a>
+                <div class="feynman__image"></div>
             </section>
             <section class="digits">
                 <h2 class="section-title">Facts and figures</h2>
@@ -73,16 +128,24 @@
                     </li>
                 </ul>
             </section>
-            <section class="feynman ">
-                <h2 class="feynman__title ">The Feynman Technique</h2>
-                <p class="feynman__subtitle ">Learn without forgetting</p>
-                <a class="feynman__link " href="# ">More →</a>
-                <div class="feynman__image "></div>
+            <section class="khan">
+                <div class="khan__container">
+                    <p class="khan__author">Salman Khan</p>
+                    <h2 class="khan__title">The One World Schoolhouse</h2>
+                    <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and
+                        knowledge to be successful in school, careers and life.</blockquote>
+                    <p class="khan__quote-author">George Lucas</p>
+                    <p class="khan__quote-author-subline">Filmmaker</p>
+                    <div class="khan__book-container">
+                        <img class="khan__book-pic" src="images/khan-book-2.png" alt="Picture of the book 'The One World Schoolhouse'">
+                        <a class="khan__buy-link link_hover_opacity" href="#">Buy book →</a>
+                    </div>
+                </div>
             </section>
             <section class="kaufman">
                 <h2 class="section-title section-title_theme_dark ">Ten principles of rapid skill acquisition</h2>
                 <p class="section-subtitle section-subtitle_theme_dark ">by Josh Kaufman</p>
-                <div class="kaufman__triangle "></div>
+                <img src="images/kaufman-triangle.svg" class="kaufman__triangle rotation" alt="blue rolling trangle">
                 <ul class="table table_theme_dark ">
                     <li class="table__cell table__cell_theme_dark ">
                         <h3 class="table__heading ">1</h3>
@@ -90,7 +153,7 @@
                     </li>
                     <li class="table__cell table__cell_theme_dark ">
                         <h3 class="table__heading ">2</h3>
-                        <p class="table__text ">Focus ypur energy on one skill at a time</p>
+                        <p class="table__text ">Focus your energy on one skill at a time</p>
                     </li>
                     <li class="table__cell table__cell_theme_dark ">
                         <h3 class="table__heading ">3</h3>
@@ -98,7 +161,7 @@
                     </li>
                     <li class="table__cell table__cell_theme_dark ">
                         <h3 class="table__heading ">4</h3>
-                        <p class="table__text ">Deconstruct the skill into subskills</p>
+                        <p class="table__text ">Deconstruct the skill into sub-skills</p>
                     </li>
                     <li class="table__cell table__cell_theme_dark ">
                         <h3 class="table__heading ">5</h3>
@@ -126,6 +189,16 @@
                     </li>
                 </ul>
             </section>
+            <section class="resources">
+                <h2 class="section-title">Useful resources</h2>
+                <p class="section-subtitle">Futher materials on learning techniques and hacks.</p>
+                <div class="resources__logo-zone">
+                    <a class="link_hover_opacity" href="https://ed.ted.com/"><img class="resources__logo" src="images/logo/resources-tedED.png" alt="tedED logo"></a>
+                    <a class="link_hover_opacity" href="https://medium.com/"><img class="resources__logo" src="images/logo/resources-Medium.png" alt="Medium logo"></a>
+                    <a class="link_hover_opacity" href="https://www.dezeen.com/"><img class="resources__logo" src="images/logo/resources-dezeen.png" alt="dezeen logo"></a>
+                    <a class="link_hover_opacity" href="https://www.goodreads.com/"><img class="resources__logo" src="images/logo/resources-goodreads.png" alt="goodreads logo"></a>
+                </div>
+            </section>
         </main>
         <footer class="footer ">
             <div class="footer__columns">
@@ -138,13 +211,13 @@
                     <nav>
                         <ul class="footer__list">
                             <li>
-                                <a class="footer__column-link" href="# ">Home page</a>
+                                <a class="footer__column-link link_hover_opacity" href="# ">Home page</a>
                             </li>
                             <li>
-                                <a class="footer__column-link" href="# ">Mission</a>
+                                <a class="footer__column-link link_hover_opacity" href="# ">Mission</a>
                             </li>
                             <li>
-                                <a class="footer__column-link" href="# ">Professions</a>
+                                <a class="footer__column-link link_hover_opacity" href="# ">Professions</a>
                             </li>
                         </ul>
                     </nav>
@@ -153,10 +226,10 @@
                     <h2 class="footer__column-heading">Social media</h2>
                     <ul class="footer__list ">
                         <li>
-                            <a class="footer__column-link " href="# "><img class="footer__social-icon" src="images/facebook_white.svg " alt="Facebook logo ">Facebook</a>
+                            <a class="footer__column-link link_hover_opacity" href="# "><img class="footer__social-icon" src="images/facebook_white.svg " alt="Facebook logo ">Facebook</a>
                         </li>
                         <li>
-                            <a class="footer__column-link " href="# "><img class="footer__social-icon" src="images/instagram_white.svg " alt="Instagram logo">Instagram</a>
+                            <a class="footer__column-link link_hover_opacity" href="# "><img class="footer__social-icon" src="images/instagram_white.svg " alt="Instagram logo">Instagram</a>
                         </li>
                     </ul>
                 </div>
