@@ -14,12 +14,12 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page__link_hover_opacity {
+.page-link {
     transition: opacity .6s linear;
     opacity: 1;
 }
 
-.page__link_hover_opacity:hover {
+.page-link:hover {
     opacity: 0.6;
 }
 
