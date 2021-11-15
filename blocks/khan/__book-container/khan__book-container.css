@@ -1,10 +1,8 @@
 .khan__book-container {
     width: 100%;
     max-height: 620px;
+    /** without that rule object-fit at __book-pik didnt work
+    i realised it with 2 ways, but your way, as you comment in review didnt work **/
     margin-top: 68px;
-    overflow: hidden;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
