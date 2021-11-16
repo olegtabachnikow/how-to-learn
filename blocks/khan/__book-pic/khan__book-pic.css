@@ -1,8 +1,9 @@
 .khan__book-pic {
-    max-width: 608px;
+    height: 620px;
+    width: 608px;
     margin-right: 48px;
     object-fit: cover;
     object-position: top;
-    /** without that rule object-fit at __book-pik didnt work
-    i realised it with 2 ways, but your way, as you comment in review didnt work **/
+    vertical-align: bottom;
+    /** Use vertical-align because i have small space between image and bottom of khan__book-container element, it take 623px height somehow, that way all work correct **/
 }
