@@ -6,7 +6,6 @@ HTML and CSS are used, and orginized with BEM methodology.
 
 ## Technologies used:
 
-HTML, CSS;
-Deployed on github pages
+HTML, CSS
 
-[Visit website](https://eskel4ik.github.io/how-to-learn/index.html)
+Deployed on [github pages](https://eskel4ik.github.io/how-to-learn/index.html)
