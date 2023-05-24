@@ -8,4 +8,4 @@ HTML and CSS are used, and orginized with BEM methodology.
 
 HTML, CSS
 
-Deployed on [github pages](https://eskel4ik.github.io/how-to-learn/index.html)
+Deployed on [github pages](https://olegtabachnikow.github.io/how-to-learn/index.html)
